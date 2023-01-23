@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!-- saved from url=(0054)https://mdn.github.io/css-examples/backdrop/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>MDN Web Docs Example: Toggling full-screen mode</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./MDN Web Docs Example_ Toggling full-screen mode_files/styles.css">
+    <style class="editable">video::backdrop {
+  background-color: #111;
+}
+</style>
+    
+    <!-- import the webpage's javascript file -->
+    <script src="./MDN Web Docs Example_ Toggling full-screen mode_files/script.js" defer=""></script>
+  </head>  
+  <body>
+    <section class="preview"><video controls="" src="https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4" poster="https://peach.blender.org/wp-content/uploads/title_anouncement.jpg?x11217" width="620">
+Sorry, your browser doesn't support embedded videos.  Time to upgrade!
+</video>
+</section>
+
+<textarea class="playable playable-css" style="height: 100px;">video::backdrop {
+  background-color: #448;
+}
+</textarea>
+
+<textarea class="playable playable-html" style="height: 200px;">&lt;video controls
+  src="https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4"
+  poster="https://peach.blender.org/wp-content/uploads/title_anouncement.jpg?x11217"
+  width="620"&gt;
+Sorry, your browser doesn't support embedded videos.  Time to upgrade!
+&lt;/video&gt;
+</textarea>
+
+    <div class="playable-buttons">
+        <input id="reset" type="button" value="Reset">
+      </div>
+    
+    <script src="./MDN Web Docs Example_ Toggling full-screen mode_files/playable.js"></script>
+  
+</body></html>

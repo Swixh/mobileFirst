@@ -25,8 +25,19 @@ header ul {
 }
 
 .HamMenu {
-  float: right;
-  margin: 0 30px 20px;
+  display: flex;
+  justify-content: left;
+  /* align-content: left; */
+  width: 100%;
+}
+
+.HamMenu svg {
+  align-self: center;
+  padding: 0 20px;
+}
+
+.logo {
+  color: var(--font-color);
 }
 
 .wrapper {
@@ -37,6 +48,7 @@ header ul {
 .wrapper article h2 {
   font-size: 50px;
   color: var(--font-color);
+  /* margin-top: px; */
   padding: 30px 30px 20px;
   font-family: Arial;
   line-height: 44px;
@@ -44,13 +56,18 @@ header ul {
 
 .wrapper article p {
   font-size: 16px;
-  color: #111;
+  color: rgb(112, 112, 112);
   font-family: Arial;
   padding: 0px 30px 20px;
-  line-height: 24px;
+  line-height: 30px;
+}
+
+q {
+  margin: 0 30px;
+  font-size: 12px;
 }
 
 .pic {
   width: 100%;
-  background-blend-mode: multiply;
+  filter: drop-shadow(0px 5px 76px #c36666);
 }
