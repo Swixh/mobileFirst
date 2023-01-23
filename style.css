@@ -71,3 +71,12 @@ q {
   width: 100%;
   filter: drop-shadow(0px 5px 76px #c36666);
 }
+
+.sazz {
+  width: 100%;
+  position: absolute;
+  height: 140vh;
+  object-fit: cover;
+  opacity: 20%;
+  /* transform: rotate(90deg); */
+}
