@@ -10,6 +10,10 @@ html {
 body {
   margin: 0;
   background-color: var(--bg-color);
+  background-image: url("./pictures/gradient-7258997.png ");
+  background-repeat: repeat-y;
+  background-size: 250% 200vh;
+  background-blend-mode: overlay;
 }
 
 a {
@@ -42,7 +46,7 @@ header ul {
 
 .wrapper {
   margin: 0 auto;
-  background-color: #ffb4a2;
+  /* background-color: #ffb4a2; */
 }
 
 .wrapper article h2 {
